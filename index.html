@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHRONICLES | A Journey Through Time</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at center, #183b4b, #070d19 75%);
+      color: #f4e5c4;
+      font-family: Georgia, serif;
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+    main {
+      max-width: 700px;
+      padding: 32px;
+    }
+    .symbol {
+      font-size: 64px;
+      color: #d6ac62;
+    }
+    h1 {
+      font-size: clamp(42px, 8vw, 84px);
+      letter-spacing: 8px;
+      margin: 20px 0 0;
+      color: #e6c587;
+    }
+    h2 {
+      font-weight: normal;
+      letter-spacing: 5px;
+    }
+    p {
+      line-height: 1.8;
+      font-size: 18px;
+    }
+    button {
+      margin-top: 25px;
+      padding: 17px 32px;
+      background: #c5a46b;
+      color: #101725;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    button:hover, button:focus-visible {
+      background: #f0d39b;
+    }
+    #mission {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #c5a46b;
+    }
+    [hidden] {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="symbol" aria-hidden="true">⌛</div>
+    <h1>CHRONICLES</h1>
+    <h2>A JOURNEY THROUGH TIME</h2>
+    <p>
+      History is not merely something to study.
+      It is a world waiting to be explored.
+    </p>
+    <button id="begin">INITIALIZE EXPEDITION</button>
+    <section id="mission" hidden aria-live="polite">
+      <h2>EXPEDITION 001</h2>
+      <p>Destination: Thebes, Ancient Egypt</p>
+      <p>Temporal coordinates: 1250 BCE</p>
+      <p>
+        Your mission is to explore the ancient city,
+        investigate its people and artifacts, and
+        uncover the stories of everyday life.
+      </p>
+      <strong>Temporal gateway awaiting activation...</strong>
+    </section>
+  </main>
+  <script>
+    document.getElementById("begin").addEventListener("click", function () {
+      document.getElementById("mission").hidden = false;
+      this.hidden = true;
+    });
+  </script>
+</body>
+</html>
