@@ -1,41 +1,46 @@
-# CHRONICLES · An Audience with Nefertiti
-Version 5.1 · First object journey · Designed by Kelli Youngblood
+# CHRONICLES · Object Journeys · Version 5.2
+Designed by Kelli Youngblood
 
-A silent, self-paced museum-to-Amarna tour. This update replaces the mystery homepage with a real-object introduction, an imagined workshop, three optional discoveries, sources and downloadable personal notes.
+Stop 01: Nefertiti (museum → living portrait → workshop).
+Stop 02: Meketre’s Model Bakery and Brewery (museum → tomb context → imagined working scene).
+Silent, self-paced educational portfolio experience. No video is included.
 
-## Upload to your existing GitHub repository
-1. Unzip CHRONICLES_v5_1_Meet_Nefertiti.zip.
+## GitHub upload
+1. Unzip CHRONICLES_v5_2_Meketre_Journey.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
-3. At the MAIN file list, choose Add file → Upload files.
-4. Upload all SEVEN extracted files themselves: index.html, styles.css, app.js, nefertiti.jpg, amarna-workshop.jpg nefertiti-interpretation.jpg and README.md. They all belong at the repository ROOT, with no enclosing folder or assets folder.
-5. Commit to the existing publishing branch with: Add Version 5.1 Meet Nefertiti
-6. Wait for the GitHub Pages deployment under Actions to finish. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R on Mac (Ctrl+Shift+R on Windows).
-7. Confirm the page says “An audience with Nefertiti” and the footer says Version 5.1. Click Travel to Amarna to meet Nefertiti, then choose Enter the sculptor’s workshop.
+3. From the main file list, choose Add file → Upload files.
+4. Upload all ELEVEN extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
+5. Commit to the existing publishing branch with: Add Meketre model journey
+6. Wait for the Pages deployment to finish under Actions. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R (Mac) or Ctrl+Shift+R (Windows).
+7. Choose Locations → 02 · Meketre’s model, or Next object at the Nefertiti workshop.
 
-The matching index.html, styles.css, app.js nefertiti-interpretation.jpg and README.md replace the old versions. Other old files can remain unused. No repository settings need to change. Git history retains earlier versions.
+The eleven files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
 
 ## Local preview
-Keep all seven files together and open index.html in a modern browser. Local browser storage behavior can vary. There is no server, tracking or sound. Notes have a separate storage key from the old mystery. No notes are transmitted.
+Keep all eleven files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
 
-## Research and visual credits
-The museum screen is an original digital layout, not a reproduction of the Berlin gallery.
-Real-object photograph: Philip Pikart, “Nofretete Neues Museum.jpg,” Wikimedia Commons, CC BY-SA 3.0. Original file reproduced without alteration, displayed with CSS containment.
-Source: https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg
-License: https://creativecommons.org/licenses/by-sa/3.0/
-The photograph remains under its stated license. No endorsement by the photographer or museum is implied.
+## Historical scope and references
+These journeys take place at different dates: Nefertiti at Amarna circa 1340 BCE; Meketre’s model from Thebes circa 1981–1975 BCE (scene label rounded to circa 1980 BCE). They are not a single expedition to one year.
 
-Historical sources (consulted 17 November 2026):
-- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/
-- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/
-- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/discovery-and-partage/
+Meketre source: The Metropolitan Museum of Art, Model Bakery and Brewery from the Tomb of Meketre, 20.3.12:
+https://www.metmuseum.org/art/collection/search/544258
+Photograph: The Met, public domain. Credit: Rogers Fund and Edward S. Harkness Gift, 1920. Original photograph reproduced without alteration.
+The model was placed in a tomb. The life-size working scene illustrates activities represented in the model, not the tomb, a known estate building, a precise historical recipe, or identified workers.
 
-The date is approximate. Find context does not prove original placement or intended use. Whether the bust was a model or an almost finished artwork remains debated.
+Nefertiti sources:
+https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/
+https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/
+https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/discovery-and-partage/
+https://www.metmuseum.org/art/collection/search/545803
+Bust photograph: Philip Pikart, Wikimedia Commons, CC BY-SA 3.0, original file unaltered.
+https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg
+https://creativecommons.org/licenses/by-sa/3.0/
 
-Workshop image: created for this project with OpenAI built-in image generation. It is an interpretation; room, tools, portraits, lighting and placement are imagined. It does not reproduce the excavated floor plan. No generated image substitutes for the photograph of the original bust. No videos are included in this first tour build.
+Research consulted 17 November 2026. Dates approximate. Independent project; no museum affiliation or endorsement.
 
-Image prompt: Photorealistic, quiet, unoccupied sculptor’s workshop at Akhetaten (Amarna), circa 1340 BCE; plastered mudbrick room, daylight through right doorway, foreground workbench with limestone chips and pigment bowls, simple tools and plaster study heads on shelf; wide composition with uncluttered upper left for interface text; no Nefertiti bust, modern objects, writing or interface. Interpretive setting, not exact archaeological restoration.
+## Generated imagery
+Living Nefertiti, Amarna workshop and Thebes bakery images were created with OpenAI built-in image generation. They are artistic interpretations, not archaeological proof. The Nefertiti portrait is not a verified facial reconstruction. The opening museum layouts are original digital presentations, not actual museum galleries.
+Bakery prompt: Photorealistic cinematic interpretation of bread and beer production represented by Meketre’s model, Thebes circa 1980 BCE; plastered mudbrick courtyard, grain grinding at left, mixing tubs and fermentation jars at center, earthen ovens and conical loaves at right; two respectfully depicted adult workers in linen, warm daylight, uncluttered upper-left space; no modern tools, writing or interface. Life-size interpretation, not the tomb or a known building.
 
-## Validation
-JavaScript syntax checked. Desktop browser verified: museum opening, travel transition, workshop discovery, location indicator, note saving and return to museum. Responsive CSS and reduced-motion support are included; no physical mobile-device testing was performed.
-
-Version 5.1 adds the approved AI-created living portrait and a short researched queen introduction between museum and workshop. Additional source: https://www.metmuseum.org/art/collection/search/545803 (Relief of Queen Nefertiti, 47.57.1). The portrait is an artistic interpretation, not a verified facial reconstruction. No audio or video is included.
+## Checks
+JavaScript syntax, local image/link references and unique HTML IDs checked for this update. Browser interaction testing of Stop 02 has not been completed because browser preview access was blocked in this session. Responsive and reduced-motion styles included.
