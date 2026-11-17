@@ -1,21 +1,21 @@
 # CHRONICLES · An Audience with Nefertiti
-Version 5 · First object journey · Designed by Kelli Youngblood
+Version 5.1 · First object journey · Designed by Kelli Youngblood
 
 A silent, self-paced museum-to-Amarna tour. This update replaces the mystery homepage with a real-object introduction, an imagined workshop, three optional discoveries, sources and downloadable personal notes.
 
 ## Upload to your existing GitHub repository
-1. Unzip CHRONICLES_v5_Nefertiti_Tour.zip.
+1. Unzip CHRONICLES_v5_1_Meet_Nefertiti.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
 3. At the MAIN file list, choose Add file → Upload files.
-4. Upload all SIX extracted files themselves: index.html, styles.css, app.js, nefertiti.jpg, amarna-workshop.jpg and README.md. They all belong at the repository ROOT, with no enclosing folder or assets folder.
-5. Commit to the existing publishing branch with: Add Version 5 Nefertiti object journey
+4. Upload all SEVEN extracted files themselves: index.html, styles.css, app.js, nefertiti.jpg, amarna-workshop.jpg nefertiti-interpretation.jpg and README.md. They all belong at the repository ROOT, with no enclosing folder or assets folder.
+5. Commit to the existing publishing branch with: Add Version 5.1 Meet Nefertiti
 6. Wait for the GitHub Pages deployment under Actions to finish. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R on Mac (Ctrl+Shift+R on Windows).
-7. Confirm the page says “An audience with Nefertiti” and the footer says Version 5. Click Travel to Amarna to reach the workshop.
+7. Confirm the page says “An audience with Nefertiti” and the footer says Version 5.1. Click Travel to Amarna to meet Nefertiti, then choose Enter the sculptor’s workshop.
 
-The matching index.html, styles.css, app.js and README.md replace the old versions. Other old files can remain unused. No repository settings need to change. Git history retains earlier versions.
+The matching index.html, styles.css, app.js nefertiti-interpretation.jpg and README.md replace the old versions. Other old files can remain unused. No repository settings need to change. Git history retains earlier versions.
 
 ## Local preview
-Keep all six files together and open index.html in a modern browser. Local browser storage behavior can vary. There is no server, tracking or sound. Notes have a separate storage key from the old mystery. No notes are transmitted.
+Keep all seven files together and open index.html in a modern browser. Local browser storage behavior can vary. There is no server, tracking or sound. Notes have a separate storage key from the old mystery. No notes are transmitted.
 
 ## Research and visual credits
 The museum screen is an original digital layout, not a reproduction of the Berlin gallery.
@@ -37,3 +37,5 @@ Image prompt: Photorealistic, quiet, unoccupied sculptor’s workshop at Akhetat
 
 ## Validation
 JavaScript syntax checked. Desktop browser verified: museum opening, travel transition, workshop discovery, location indicator, note saving and return to museum. Responsive CSS and reduced-motion support are included; no physical mobile-device testing was performed.
+
+Version 5.1 adds the approved AI-created living portrait and a short researched queen introduction between museum and workshop. Additional source: https://www.metmuseum.org/art/collection/search/545803 (Relief of Queen Nefertiti, 47.57.1). The portrait is an artistic interpretation, not a verified facial reconstruction. No audio or video is included.
