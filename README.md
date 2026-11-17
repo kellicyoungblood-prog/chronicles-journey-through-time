@@ -1,50 +1,39 @@
-# CHRONICLES — Death on the West Bank
+# CHRONICLES · An Audience with Nefertiti
+Version 5 · First object journey · Designed by Kelli Youngblood
 
-Version 4 · Expedition 001 · Thebes, circa 1250 BCE
-Designed by Kelli Youngblood
+A silent, self-paced museum-to-Amarna tour. This update replaces the mystery homepage with a real-object introduction, an imagined workshop, three optional discoveries, sources and downloadable personal notes.
 
-A complete text-first playable historical fiction investigation with four environments, four fictional interview subjects, nine case entries, six sourced historical exhibits, a journal, and a three-part final case review.
-
-## Upload to the existing GitHub repository
-
-1. Unzip CHRONICLES_Death_on_the_West_Bank_v4.zip.
+## Upload to your existing GitHub repository
+1. Unzip CHRONICLES_v5_Nefertiti_Tour.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
-3. Choose Add file → Upload files from the repository’s main file list.
-4. Drag all NINE extracted files into the upload area: index.html, styles.css, app.js, history.js, README.md, marketplace.jpg, workshop.jpg, storehouse.jpg, and river.jpg. Upload the files themselves, not the ZIP or an enclosing folder.
-5. All nine belong at the repository root. This package uses no image subfolder.
-6. Commit directly to the existing publishing branch with “Add Version 4 Death on the West Bank.”
-7. Wait for the Pages deployment in Actions. Then open the existing live site and hard-refresh with Command+Shift+R.
-8. The title should say Death on the West Bank and the footer should say Version 4.
+3. At the MAIN file list, choose Add file → Upload files.
+4. Upload all SIX extracted files themselves: index.html, styles.css, app.js, nefertiti.jpg, amarna-workshop.jpg and README.md. They all belong at the repository ROOT, with no enclosing folder or assets folder.
+5. Commit to the existing publishing branch with: Add Version 5 Nefertiti object journey
+6. Wait for the GitHub Pages deployment under Actions to finish. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R on Mac (Ctrl+Shift+R on Windows).
+7. Confirm the page says “An audience with Nefertiti” and the footer says Version 5. Click Travel to Amarna to reach the workshop.
 
-The old assets folder can remain. No repository or Pages settings change is needed. Git history retains the previous version.
+The matching index.html, styles.css, app.js and README.md replace the old versions. Other old files can remain unused. No repository settings need to change. Git history retains earlier versions.
 
-## Try the experience locally
+## Local preview
+Keep all six files together and open index.html in a modern browser. Local browser storage behavior can vary. There is no server, tracking or sound. Notes have a separate storage key from the old mystery. No notes are transmitted.
 
-Keep all nine files together and open index.html in a modern browser. Local-file browser storage behavior can vary; GitHub Pages provides the intended web origin for persistent progress. There are no dependencies, build commands, API keys, accounts, or server endpoints.
+## Research and visual credits
+The museum screen is an original digital layout, not a reproduction of the Berlin gallery.
+Real-object photograph: Philip Pikart, “Nofretete Neues Museum.jpg,” Wikimedia Commons, CC BY-SA 3.0. Original file reproduced without alteration, displayed with CSS containment.
+Source: https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg
+License: https://creativecommons.org/licenses/by-sa/3.0/
+The photograph remains under its stated license. No endorsement by the photographer or museum is implied.
 
-## Playable features
+Historical sources (consulted 17 November 2026):
+- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/
+- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/
+- https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/discovery-and-partage/
 
-- Assignment appears above interactive artwork.
-- Marketplace → workshop → storehouse → river landing unlock from discoveries.
-- Later evidence unlocks follow-up questions, including a return to the first witness.
-- Next lead provides a recovery path if the learner is unsure where to go.
-- Case journal distinguishes invented testimony/documents from sourced historical discoveries.
-- Each case entry records its source and its evidentiary limits.
-- Reflection, progress, and completion persist locally when browser storage is available.
-- Downloadable UTF-8 text journal; restart requires an explicit confirmation.
-- Final review covers responsibility, supporting evidence, and why the initial accusation was insufficient.
-- Native modal dialogs, keyboard-operable buttons, focus indicators, responsive CSS.
+The date is approximate. Find context does not prove original placement or intended use. Whether the bust was a model or an almost finished artwork remains debated.
 
-Version 4 uses text encounters. Video, narration, character portraits, and ambient sound are future additions, not included features.
+Workshop image: created for this project with OpenAI built-in image generation. It is an interpretation; room, tools, portraits, lighting and placement are imagined. It does not reproduce the excavated floor plan. No generated image substitutes for the photograph of the original bust. No videos are included in this first tour build.
 
-## History and fiction
+Image prompt: Photorealistic, quiet, unoccupied sculptor’s workshop at Akhetaten (Amarna), circa 1340 BCE; plastered mudbrick room, daylight through right doorway, foreground workbench with limestone chips and pigment bowls, simple tools and plaster study heads on shelf; wide composition with uncluttered upper left for interface text; no Nefertiti bust, modern objects, writing or interface. Interpretive setting, not exact archaeological restoration.
 
-All characters, names as used in the story, dialogue, correspondence, transactions, release notes, and events are fictional. The English documents are learning aids, not translations, facsimiles, or reconstructed ancient forms. Modern investigative questions organize the activity; the project does not reproduce an ancient legal or forensic procedure.
-
-Sourced exhibits preserve dates and distinguish earlier/later comparisons. Sources include The Metropolitan Museum of Art, Museo Egizio, the University of Memphis, and UCL/Petrie Museum. References and date context are embedded in history.js and available through History & sources. The illustration is AI-created interpretation and requires specialist review before any claim to precise archaeological reconstruction. No museum photography is reproduced or endorsement implied.
-
-## Validation and limits
-
-JavaScript syntax checks passed. A desktop browser walkthrough verified the nine-entry story path, location gates, witness question dependencies, return to Iset, final confrontation, three-part assessment, incorrect-answer feedback, completion, historical exhibit access, saved reflection/progress after reload, and restart. Final packaging uses byte-identical copies of the previously inspected marketplace/workshop JPEGs at root-relative paths; all referenced local files were checked.
-
-A physical mobile-device test, screen-reader audit, and inspection of the exported journal download remain outstanding. No original video or audio is supplied. This is a playable instructional design prototype, not a validated historical simulation.
+## Validation
+JavaScript syntax checked. Desktop browser verified: museum opening, travel transition, workshop discovery, location indicator, note saving and return to museum. Responsive CSS and reduced-motion support are included; no physical mobile-device testing was performed.
