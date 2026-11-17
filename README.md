@@ -1,4 +1,4 @@
-# CHRONICLES · Object Journeys · Version 5.4
+# CHRONICLES · Object Journeys · Version 5.5
 Designed by Kelli Youngblood
 
 Stop 01: Nefertiti (museum → living portrait → workshop).
@@ -7,18 +7,18 @@ Stop 03: Temple of Dendur (museum → original site and religious purpose → ri
 Silent, self-paced educational portfolio experience. No video is included.
 
 ## GitHub upload
-1. Unzip CHRONICLES_v5_4_Dendur_Journey.zip.
+1. Unzip CHRONICLES_v5_5_Augustus_Relief.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
 3. From the main file list, choose Add file → Upload files.
-4. Upload all SEVENTEEN extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
-5. Commit to the existing publishing branch with: Add Temple of Dendur journey
+4. Upload all EIGHTEEN extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
+5. Commit to the existing publishing branch with: Add Augustus relief photograph
 6. Wait for the Pages deployment to finish under Actions. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R (Mac) or Ctrl+Shift+R (Windows).
 7. Choose Locations → 03 · Temple of Dendur, or Next object at Meketre’s working scene.
 
-The seventeen files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg, meketre-chamber.jpg, dendur.html, dendur.js, dendur-museum.jpg, dendur-archive.jpg, dendur-riverside.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
+The eighteen files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg, meketre-chamber.jpg, dendur.html, dendur.js, dendur-museum.jpg, dendur-archive.jpg, dendur-riverside.jpg, augustus-relief.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
 
 ## Local preview
-Keep all seventeen files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
+Keep all eighteen files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
 
 ## Historical scope and references
 These journeys take place at different dates: Nefertiti at Amarna circa 1340 BCE; Meketre’s model from Thebes circa 1981–1975 BCE (scene label rounded to circa 1980 BCE). They are not a single expedition to one year.
@@ -46,12 +46,12 @@ Bakery prompt: Photorealistic cinematic interpretation of bread and beer product
 ## Checks
 JavaScript syntax, local image/link references and unique HTML IDs checked for this update. Browser interaction testing of Stop 02 has not been completed because browser preview access was blocked in this session. Responsive and reduced-motion styles included.
 
-## Version 5.4 archival photograph
+## Version 5.5 archival photograph
 The tomb context screen now includes the actual 1920 chamber photograph and a short account of the models’ funerary purpose. Photograph: Egyptian Expedition, The Metropolitan Museum of Art, 1920. Reproduced for educational commentary from Edith W. Watts, The Art of Ancient Egypt: A Resource for Educators (The Met, 1998), page 79, slide 7. Small original embedded image (237×158 pixels), extracted without retouching; not AI-generated or upscaled with invented detail. The publication’s layout and text are not reproduced. No CC0 or open-access license is claimed for this archival image.
 Publication and source: https://www.metmuseum.org/met-publications/the-art-of-ancient-egypt-a-resource-for-educators
 Museum-provided PDF: https://cdn.sanity.io/files/cctd4ker/production/305e54754b5cdcff385fe8f46957e8ebfdf26201.pdf
 
-## Version 5.4: Temple of Dendur
+## Version 5.5: Temple of Dendur
 The third journey includes the real temple, its purpose as a divine dwelling, a historic photograph of the original site, an interpreted riverside scene, three optional discoveries, relocation history and separate personal notes. All journeys have cross-links in Locations.
 Sources consulted 17 November 2026:
 - https://www.metmuseum.org/art/collection/search/547802 (68.154; current catalog says completed by 10 CE; narrative text gives about 15 BCE)
@@ -61,3 +61,8 @@ The tour labels this stop “Reign of Augustus” to accommodate differences in 
 Museum photograph: The Metropolitan Museum of Art, public domain. Given to the United States by Egypt in 1965; awarded to The Met in 1967; installed in 1978. Historical photograph: Antonio Beato, circa 1865–1885, reproduced in The Met’s essay, original downloaded file unaltered.
 Riverside image: OpenAI built-in image generation using the historical site photograph as an architectural reference. Prompt: small sandstone Temple of Dendur and separate gateway on terrace above Nile, rocky Nubian hillside, modest scale, two-column porch, warm daylight, no pyramids or colossal additions; interpretive riverside view, not exact restoration. Landscape, water, color and restored elements are artistic choices.
 Checks: JavaScript syntax and local HTML/CSS asset references passed. New browser interactions have not been verified because preview access was blocked in this session.
+
+## Version 5.5: Augustus relief correction
+“Rome in Egyptian dress” now includes a photograph of the actual carving with Augustus identified on the left and Isis on the right. The full scene shows him offering crowns. Photograph reproduced without retouching from The Met’s essay for educational visual analysis; no separate open-access license is claimed for this essay photograph.
+Source: Isabel Stünkel, The Temple’s Cult and Decoration, revised 10 September 2025: https://www.metmuseum.org/essays/temple-of-dendur-cult-and-decoration
+The image remains separate from the AI-created riverside. JavaScript syntax, unique HTML IDs and local file references checked; browser interaction verification remains incomplete due to preview access restrictions.
