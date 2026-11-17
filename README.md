@@ -1,4 +1,4 @@
-# CHRONICLES · Object Journeys · Version 5.2
+# CHRONICLES · Object Journeys · Version 5.3
 Designed by Kelli Youngblood
 
 Stop 01: Nefertiti (museum → living portrait → workshop).
@@ -6,18 +6,18 @@ Stop 02: Meketre’s Model Bakery and Brewery (museum → tomb context → imagi
 Silent, self-paced educational portfolio experience. No video is included.
 
 ## GitHub upload
-1. Unzip CHRONICLES_v5_2_Meketre_Journey.zip.
+1. Unzip CHRONICLES_v5_3_Tomb_Discovery.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
 3. From the main file list, choose Add file → Upload files.
-4. Upload all ELEVEN extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
-5. Commit to the existing publishing branch with: Add Meketre model journey
+4. Upload all TWELVE extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
+5. Commit to the existing publishing branch with: Add Meketre tomb photograph and context
 6. Wait for the Pages deployment to finish under Actions. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R (Mac) or Ctrl+Shift+R (Windows).
 7. Choose Locations → 02 · Meketre’s model, or Next object at the Nefertiti workshop.
 
-The eleven files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
+The twelve files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg, meketre-chamber.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
 
 ## Local preview
-Keep all eleven files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
+Keep all twelve files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
 
 ## Historical scope and references
 These journeys take place at different dates: Nefertiti at Amarna circa 1340 BCE; Meketre’s model from Thebes circa 1981–1975 BCE (scene label rounded to circa 1980 BCE). They are not a single expedition to one year.
@@ -44,3 +44,8 @@ Bakery prompt: Photorealistic cinematic interpretation of bread and beer product
 
 ## Checks
 JavaScript syntax, local image/link references and unique HTML IDs checked for this update. Browser interaction testing of Stop 02 has not been completed because browser preview access was blocked in this session. Responsive and reduced-motion styles included.
+
+## Version 5.3 archival photograph
+The tomb context screen now includes the actual 1920 chamber photograph and a short account of the models’ funerary purpose. Photograph: Egyptian Expedition, The Metropolitan Museum of Art, 1920. Reproduced for educational commentary from Edith W. Watts, The Art of Ancient Egypt: A Resource for Educators (The Met, 1998), page 79, slide 7. Small original embedded image (237×158 pixels), extracted without retouching; not AI-generated or upscaled with invented detail. The publication’s layout and text are not reproduced. No CC0 or open-access license is claimed for this archival image.
+Publication and source: https://www.metmuseum.org/met-publications/the-art-of-ancient-egypt-a-resource-for-educators
+Museum-provided PDF: https://cdn.sanity.io/files/cctd4ker/production/305e54754b5cdcff385fe8f46957e8ebfdf26201.pdf
