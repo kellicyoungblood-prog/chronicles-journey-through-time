@@ -1,4 +1,4 @@
-# CHRONICLES · Object Journeys · Version 5.6
+# CHRONICLES · Object Journeys · Version 5.6.1
 Designed by Kelli Youngblood
 
 Three silent, self-paced museum-to-history journeys:
@@ -7,13 +7,13 @@ Three silent, self-paced museum-to-history journeys:
 3. Temple of Dendur: museum, original site and purpose, interpreted riverside.
 
 ## Upload this complete update
-1. Unzip CHRONICLES_v5_6_Editorial_Polish.zip.
+1. Unzip CHRONICLES_v5_6_1_Dendur_Caption_Fix.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
 3. From the main file list, choose Add file → Upload files.
 4. Upload all 22 extracted files themselves to the repository root. Do not upload the ZIP, an enclosing folder, or place these files inside assets.
-5. Commit to your existing publishing branch with: Polish wording and add historical details
+5. Commit to your existing publishing branch with: Correct Dendur image caption
 6. After Pages finishes deploying under Actions, open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R on Mac or Ctrl+Shift+R on Windows.
-7. Confirm Version 5.6 in the footer. All three journeys remain available through Locations.
+7. Confirm Version 5.6.1 in the footer. All three journeys remain available through Locations.
 
 Matching filenames replace earlier versions. Other old files can remain unused. No settings change is needed.
 
@@ -23,7 +23,7 @@ Matching filenames replace earlier versions. Other old files can remain unused. 
 - Removed misleading life-size descriptions and the awkward posture prompt.
 - Grain panel focuses on tasks and tools without suggesting all grinding workers depicted are women.
 - Workshop panel includes the published site panorama and an expandable plan.
-- Nature in stone includes the column capitals/winged disk close-up and a displayed detail of the facade’s base; full facade available for context.
+- Nature in stone retains the clearly visible column capitals and winged sun disk. Removed the lower facade crop and caption because the photograph did not clearly show the plant carvings described. Full facade remains available for architectural context.
 - Preserved evidence/interpretation labels, sources, quiet presentation, navigation and separate notes for each journey.
 
 ## Files
@@ -75,7 +75,7 @@ https://www.metmuseum.org/essays/temple-of-dendur-architecture-and-ritual
 https://www.metmuseum.org/essays/temple-of-dendur-gift-to-the-met
 https://www.metmuseum.org/essays/temple-of-dendur-cult-and-decoration
 https://www.metmuseum.org/perspectives/temple-of-dendur-2
-Museum object photograph: The Met, public domain. Historic site photograph: Antonio Beato, circa 1865–1885, reproduced by The Met. Augustus relief and capitals/winged disk detail reproduced from Isabel Stünkel’s essay. Facade photograph from Christina Marinelli’s Stories in Stone; original file unaltered, lower facade displayed as a CSS detail with full context available. No separate open-access license is claimed for essay photographs. Source links and credits accompany their use.
+Museum object photograph: The Met, public domain. Historic site photograph: Antonio Beato, circa 1865–1885, reproduced by The Met. Augustus relief and capitals/winged disk detail reproduced from Isabel Stünkel’s essay. Facade photograph from Christina Marinelli’s Stories in Stone; original file unaltered and shown in full for architectural context. No separate open-access license is claimed for essay photographs. Source links and credits accompany their use.
 The current collection catalog gives completion by 10 CE while older museum narratives describe circa 15–10 BCE; the scene uses “Reign of Augustus.”
 
 Research consulted 17 November 2026. Independent educational portfolio; no museum or photographer endorsement implied. Original source rights remain with their respective owners.
@@ -86,3 +86,5 @@ Living Nefertiti, Amarna workshop, Thebes bakery and Dendur riverside were creat
 ## Notes and checks
 Keep all files together for local use and open index.html. Browser storage is local and optional; notes can be downloaded as text. Nothing is sent to a server. Separate note keys preserve each journey’s observations.
 JavaScript syntax, unique HTML IDs, HTML/CSS/JS asset references and requested wording changes checked. Original source images visually inspected. New browser interactions were not verified because preview access was restricted in this session. Responsive styles, dialog keyboard controls and reduced-motion support remain included.
+
+Version 5.6.1 corrects the Dendur Nature in stone panel only. Existing journeys and approved wording are included. The Dendur footer reads 5.6.1; other pages remain 5.6.
