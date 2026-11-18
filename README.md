@@ -1,68 +1,88 @@
-# CHRONICLES · Object Journeys · Version 5.5
+# CHRONICLES · Object Journeys · Version 5.6
 Designed by Kelli Youngblood
 
-Stop 01: Nefertiti (museum → living portrait → workshop).
-Stop 02: Meketre’s Model Bakery and Brewery (museum → tomb context → imagined working scene).
-Stop 03: Temple of Dendur (museum → original site and religious purpose → riverside interpretation).
-Silent, self-paced educational portfolio experience. No video is included.
+Three silent, self-paced museum-to-history journeys:
+1. Nefertiti: museum portrait, living interpretation, sculptor’s workshop.
+2. Meketre’s model bakery and brewery: museum, tomb discovery, interpreted work scene.
+3. Temple of Dendur: museum, original site and purpose, interpreted riverside.
 
-## GitHub upload
-1. Unzip CHRONICLES_v5_5_Augustus_Relief.zip.
+## Upload this complete update
+1. Unzip CHRONICLES_v5_6_Editorial_Polish.zip.
 2. Open https://github.com/kellicyoungblood-prog/chronicles-journey-through-time
 3. From the main file list, choose Add file → Upload files.
-4. Upload all EIGHTEEN extracted files themselves, at the repository root. Do not upload the ZIP or an enclosing folder. No assets subfolder is needed.
-5. Commit to the existing publishing branch with: Add Augustus relief photograph
-6. Wait for the Pages deployment to finish under Actions. Open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R (Mac) or Ctrl+Shift+R (Windows).
-7. Choose Locations → 03 · Temple of Dendur, or Next object at Meketre’s working scene.
+4. Upload all 22 extracted files themselves to the repository root. Do not upload the ZIP, an enclosing folder, or place these files inside assets.
+5. Commit to your existing publishing branch with: Polish wording and add historical details
+6. After Pages finishes deploying under Actions, open https://kellicyoungblood-prog.github.io/chronicles-journey-through-time/ and refresh with Command+Shift+R on Mac or Ctrl+Shift+R on Windows.
+7. Confirm Version 5.6 in the footer. All three journeys remain available through Locations.
 
-The eighteen files are index.html, styles.css, app.js, nefertiti.jpg, nefertiti-interpretation.jpg, amarna-workshop.jpg, meketre.html, meketre.js, meketre-model.jpg, thebes-bakery.jpg, meketre-chamber.jpg, dendur.html, dendur.js, dendur-museum.jpg, dendur-archive.jpg, dendur-riverside.jpg, augustus-relief.jpg and README.md. Matching files replace earlier versions. Other old files can remain unused. No GitHub settings change is needed.
+Matching filenames replace earlier versions. Other old files can remain unused. No settings change is needed.
 
-## Local preview
-Keep all eighteen files together and open index.html in a modern browser. Notes are stored separately for each object journey when browser storage is available. Download notes to keep a text copy. Nothing is sent to a server.
+## Editorial changes
+- More mature opening language for Nefertiti, Meketre and Dendur.
+- Queen introduction acknowledges that her portrait survives while her life is less fully known.
+- Removed misleading life-size descriptions and the awkward posture prompt.
+- Grain panel focuses on tasks and tools without suggesting all grinding workers depicted are women.
+- Workshop panel includes the published site panorama and an expandable plan.
+- Nature in stone includes the column capitals/winged disk close-up and a displayed detail of the facade’s base; full facade available for context.
+- Preserved evidence/interpretation labels, sources, quiet presentation, navigation and separate notes for each journey.
 
-## Historical scope and references
-These journeys take place at different dates: Nefertiti at Amarna circa 1340 BCE; Meketre’s model from Thebes circa 1981–1975 BCE (scene label rounded to circa 1980 BCE). They are not a single expedition to one year.
+## Files
+- README.md
+- amarna-workshop.jpg
+- app.js
+- augustus-relief.jpg
+- dendur-archive.jpg
+- dendur-capitals.jpg
+- dendur-facade.jpg
+- dendur-museum.jpg
+- dendur-riverside.jpg
+- dendur.html
+- dendur.js
+- index.html
+- meketre-chamber.jpg
+- meketre-model.jpg
+- meketre.html
+- meketre.js
+- nefertiti-interpretation.jpg
+- nefertiti.jpg
+- styles.css
+- thebes-bakery.jpg
+- thutmose-plan.png
+- thutmose-site.png
 
-Meketre source: The Metropolitan Museum of Art, Model Bakery and Brewery from the Tomb of Meketre, 20.3.12:
-https://www.metmuseum.org/art/collection/search/544258
-Photograph: The Met, public domain. Credit: Rogers Fund and Edward S. Harkness Gift, 1920. Original photograph reproduced without alteration.
-The model was placed in a tomb. The life-size working scene illustrates activities represented in the model, not the tomb, a known estate building, a precise historical recipe, or identified workers.
-
-Nefertiti sources:
+## Historical and visual sources
+Nefertiti collection, materials, find context and debated purpose:
 https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/
 https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/
 https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/discovery-and-partage/
-https://www.metmuseum.org/art/collection/search/545803
-Bust photograph: Philip Pikart, Wikimedia Commons, CC BY-SA 3.0, original file unaltered.
+Her religious role: https://www.metmuseum.org/art/collection/search/545803
+Bust photograph: Philip Pikart, Wikimedia Commons, CC BY-SA 3.0, original file unaltered:
 https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg
 https://creativecommons.org/licenses/by-sa/3.0/
 
-Research consulted 17 November 2026. Dates approximate. Independent project; no museum affiliation or endorsement.
+Thutmose site images: Dimitri Laboury, “The Workshop of the Sculptor Thutmose: In the Studio of an Artist,” in Tutankhamun. Discovering the Forgotten Pharaoh (2020), pp. 156–160, figures 2–3 on p. 157. Panorama photograph A. Devillers; schematic plan after Laboury 2010. Image objects extracted from the published PDF without retouching, converted to RGB for web display. These are limited figures reproduced for educational discussion of the site, not an open-access license claim.
+https://orbi.uliege.be/handle/2268/256390
 
-## Generated imagery
-Living Nefertiti, Amarna workshop and Thebes bakery images were created with OpenAI built-in image generation. They are artistic interpretations, not archaeological proof. The Nefertiti portrait is not a verified facial reconstruction. The opening museum layouts are original digital presentations, not actual museum galleries.
-Bakery prompt: Photorealistic cinematic interpretation of bread and beer production represented by Meketre’s model, Thebes circa 1980 BCE; plastered mudbrick courtyard, grain grinding at left, mixing tubs and fermentation jars at center, earthen ovens and conical loaves at right; two respectfully depicted adult workers in linen, warm daylight, uncluttered upper-left space; no modern tools, writing or interface. Life-size interpretation, not the tomb or a known building.
+Meketre: The Met collection record 20.3.12:
+https://www.metmuseum.org/art/collection/search/544258
+Object photograph: The Met, public domain. Credit: Rogers Fund and Edward S. Harkness Gift, 1920.
+Chamber photograph: Egyptian Expedition, The Metropolitan Museum of Art, 1920; from Edith W. Watts, The Art of Ancient Egypt: A Resource for Educators (1998), p. 79. Small embedded photograph extracted without retouching, not AI-enhanced. The model’s tomb placement and funerary interpretation are discussed there.
+https://www.metmuseum.org/met-publications/the-art-of-ancient-egypt-a-resource-for-educators
 
-## Checks
-JavaScript syntax, local image/link references and unique HTML IDs checked for this update. Browser interaction testing of Stop 02 has not been completed because browser preview access was blocked in this session. Responsive and reduced-motion styles included.
+Dendur: The Met collection 68.154 and curatorial essays:
+https://www.metmuseum.org/art/collection/search/547802
+https://www.metmuseum.org/essays/temple-of-dendur-architecture-and-ritual
+https://www.metmuseum.org/essays/temple-of-dendur-gift-to-the-met
+https://www.metmuseum.org/essays/temple-of-dendur-cult-and-decoration
+https://www.metmuseum.org/perspectives/temple-of-dendur-2
+Museum object photograph: The Met, public domain. Historic site photograph: Antonio Beato, circa 1865–1885, reproduced by The Met. Augustus relief and capitals/winged disk detail reproduced from Isabel Stünkel’s essay. Facade photograph from Christina Marinelli’s Stories in Stone; original file unaltered, lower facade displayed as a CSS detail with full context available. No separate open-access license is claimed for essay photographs. Source links and credits accompany their use.
+The current collection catalog gives completion by 10 CE while older museum narratives describe circa 15–10 BCE; the scene uses “Reign of Augustus.”
 
-## Version 5.5 archival photograph
-The tomb context screen now includes the actual 1920 chamber photograph and a short account of the models’ funerary purpose. Photograph: Egyptian Expedition, The Metropolitan Museum of Art, 1920. Reproduced for educational commentary from Edith W. Watts, The Art of Ancient Egypt: A Resource for Educators (The Met, 1998), page 79, slide 7. Small original embedded image (237×158 pixels), extracted without retouching; not AI-generated or upscaled with invented detail. The publication’s layout and text are not reproduced. No CC0 or open-access license is claimed for this archival image.
-Publication and source: https://www.metmuseum.org/met-publications/the-art-of-ancient-egypt-a-resource-for-educators
-Museum-provided PDF: https://cdn.sanity.io/files/cctd4ker/production/305e54754b5cdcff385fe8f46957e8ebfdf26201.pdf
+Research consulted 17 November 2026. Independent educational portfolio; no museum or photographer endorsement implied. Original source rights remain with their respective owners.
 
-## Version 5.5: Temple of Dendur
-The third journey includes the real temple, its purpose as a divine dwelling, a historic photograph of the original site, an interpreted riverside scene, three optional discoveries, relocation history and separate personal notes. All journeys have cross-links in Locations.
-Sources consulted 17 November 2026:
-- https://www.metmuseum.org/art/collection/search/547802 (68.154; current catalog says completed by 10 CE; narrative text gives about 15 BCE)
-- https://www.metmuseum.org/essays/temple-of-dendur-architecture-and-ritual (Dieter Arnold and Adela Oppenheim)
-- https://www.metmuseum.org/essays/temple-of-dendur-gift-to-the-met (Diana Craig Patch; describes construction around 15–10 BCE)
-The tour labels this stop “Reign of Augustus” to accommodate differences in the museum’s published dates. Dendur stood in Lower Nubia, south of Aswan; it is not part of Nefertiti’s Amarna or Meketre’s Middle Kingdom Thebes.
-Museum photograph: The Metropolitan Museum of Art, public domain. Given to the United States by Egypt in 1965; awarded to The Met in 1967; installed in 1978. Historical photograph: Antonio Beato, circa 1865–1885, reproduced in The Met’s essay, original downloaded file unaltered.
-Riverside image: OpenAI built-in image generation using the historical site photograph as an architectural reference. Prompt: small sandstone Temple of Dendur and separate gateway on terrace above Nile, rocky Nubian hillside, modest scale, two-column porch, warm daylight, no pyramids or colossal additions; interpretive riverside view, not exact restoration. Landscape, water, color and restored elements are artistic choices.
-Checks: JavaScript syntax and local HTML/CSS asset references passed. New browser interactions have not been verified because preview access was blocked in this session.
+## Interpretation and media
+Living Nefertiti, Amarna workshop, Thebes bakery and Dendur riverside were created using OpenAI built-in image generation. Architecture, people, restored details, colors and placement are interpretive. The living queen is not a verified facial reconstruction. Dendur’s generated view used the archival photograph as architectural reference. The bakery scene interprets activities represented by a tomb model, not a documented building. No sound or videos are included. Museum layouts are original digital presentations, not replicas of galleries.
 
-## Version 5.5: Augustus relief correction
-“Rome in Egyptian dress” now includes a photograph of the actual carving with Augustus identified on the left and Isis on the right. The full scene shows him offering crowns. Photograph reproduced without retouching from The Met’s essay for educational visual analysis; no separate open-access license is claimed for this essay photograph.
-Source: Isabel Stünkel, The Temple’s Cult and Decoration, revised 10 September 2025: https://www.metmuseum.org/essays/temple-of-dendur-cult-and-decoration
-The image remains separate from the AI-created riverside. JavaScript syntax, unique HTML IDs and local file references checked; browser interaction verification remains incomplete due to preview access restrictions.
+## Notes and checks
+Keep all files together for local use and open index.html. Browser storage is local and optional; notes can be downloaded as text. Nothing is sent to a server. Separate note keys preserve each journey’s observations.
+JavaScript syntax, unique HTML IDs, HTML/CSS/JS asset references and requested wording changes checked. Original source images visually inspected. New browser interactions were not verified because preview access was restricted in this session. Responsive styles, dialog keyboard controls and reduced-motion support remain included.
